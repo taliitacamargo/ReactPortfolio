@@ -43,6 +43,11 @@ a {
   color: #F9DC5C;
 }
 
+header a:hover {
+  opacity: 70%;
+}
+
+
 /* header styling ends here */
 
 body {
@@ -52,6 +57,7 @@ line-height: 1.5;
 }
 
 .container {
+  box-shadow:  -1px 2px 12px #a1f4746c ;
   background-color: #141414;
   border-radius: 10px;
   word-wrap: break-word;
@@ -103,11 +109,14 @@ h3 {
   border-radius: 5px;
 }
 
+.projects:hover {
+opacity: 80%;
+}
+
 footer {
   padding: 10px;
   background: #000505;
   font-weight: bold; 
-  
 }
 
 .form,
@@ -220,4 +229,22 @@ hr {
 
 .links li:nth-child(4) a:before {
   background: #5607a0;
+}
+
+@media screen  and  (max-width: 992px){
+ footer {
+
+ }
+
+}
+@media screen and (max-width: 768px) {
+  header a {
+    flex-direction: column;
+  }
+
+  .project-img {
+   height:100%;
+   width: 100%;
+  }
+
 }
