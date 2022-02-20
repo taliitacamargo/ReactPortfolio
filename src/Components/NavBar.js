@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBar({currentPage, handlePageChange}) {
     return(
-        <header>
+        <header className = "header">
             <nav>
         <ul className = "nav nav-tabs">
             <li className="nav-item">
