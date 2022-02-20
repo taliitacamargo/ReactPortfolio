@@ -231,20 +231,49 @@ hr {
   background: #5607a0;
 }
 
+ 
+
 @media screen  and  (max-width: 992px){
- footer {
+  
+  .container,
+  h1 ,
+  .project-container {
+    width: 90%;
+  }
 
- }
+  #profileIMG,
+  .project-img {
+    height: 100%;
+    width: 100%;
+   }
 
+   .project-img {
+    margin: 10px;
+  }
+   
 }
+
 @media screen and (max-width: 768px) {
+  
   header a {
     flex-direction: column;
   }
 
+  .container,
+  h1,
+  .project-container {
+    width: 90%;
+  }
+
+  #profileIMG,
   .project-img {
-   height:100%;
-   width: 100%;
+   height: 100%;
+   width: 100%; 
+
+  }
+
+  .project-img {
+    margin: 10px;
   }
 
 }
