@@ -235,6 +235,23 @@ hr {
   background: #5607a0;
 }
 
+@media screen  and  (max-width: 1600px) {
+  .container {
+    width: 90%;
+    padding: 100px;
+  }
+
+  #profileIMG{
+    width: 20%;
+    height: 20%;
+  }
+
+  .project-img {
+    height: 300px;
+    width: 300px;
+   }
+}
+
  
 
 @media screen  and  (max-width: 992px){
@@ -245,6 +262,10 @@ hr {
 
   h1, h3 {
     font-size: 100%;
+   }
+
+   #profileIMG {
+     width : 50%
    }
 
   .project-img {
