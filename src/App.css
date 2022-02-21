@@ -62,7 +62,7 @@ line-height: 1.5;
   border-radius: 10px;
   word-wrap: break-word;
   margin: 5%;
-  padding: 150px;
+  padding: 100px;
   opacity: 92%;
 }
 
@@ -170,6 +170,10 @@ hr {
   width: 40%;
 }
 
+.grow {
+  font-size:45px;
+}
+
 .links li {
   list-style: none;
 }
@@ -235,48 +239,54 @@ hr {
 
 @media screen  and  (max-width: 992px){
   
-  .container,
-  h1 ,
-  .project-container {
-    width: 90%;
+  .container {
+    width: 91%;
   }
 
-  #profileIMG,
+  h1, h3 {
+    font-size: 100%;
+   }
+
   .project-img {
     height: 100%;
     width: 100%;
    }
 
-   .project-img {
-    margin: 10px;
+   .projects {
+    margin: 5px;
   }
    
 }
 
 @media screen and (max-width: 768px) {
   
-  header {
+  header a {
     flex-direction: column;
   }
 
   .container {
     padding: 100px;
+    width: 100%
   }
+
+  h1, h3 {
+    font-size: 100%;
+    margin-left: 15px;
+   }
+ 
   
-  .container,
-  .project-container {
-    width: 90%;
+  .container {
+    width: 91%;
   }
 
   #profileIMG,
   .project-img {
-   height: 100%;
+  height : 100%;
    width: 100%; 
-
   }
 
-  .project-img {
-    margin: 10px;
+  .projects {
+    margin: 5px;
   }
 }
 
@@ -290,20 +300,18 @@ hr {
   h1, h3 {
    font-size: 100%;
    margin-left : 15px;
- 
   }
 
   .container {
     padding: 12%;
     width: 90%;
   }
-  
 
   .project-img, a {
     width: 100%; 
    }
 
-   .projects{
+  .projects{
     margin: 5px;
   }
 
