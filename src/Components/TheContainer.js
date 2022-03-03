@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-
+import '../App.css';
 import About from './Content/About';
 import NavBar from './NavBar';
 import Contact from './Content/Contact';
@@ -33,9 +33,9 @@ export default function TheContainer() {
               
                     position: "fixed",
                     width: "100%",
+                    height:"100%",
                     left: "50%",
                     top: "50%",
-                    height: "100%",
                     objectFit: "cover",
                     transform: "translate(-50%, -50%) ",
                     zIndex: "-1", 
@@ -47,9 +47,9 @@ export default function TheContainer() {
                 <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
 
                 {renderPage()}
-                <div className="footerDiv">
+        
                 <Footer />
-            </div>
+ 
 
 
           

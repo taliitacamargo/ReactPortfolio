@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBar({currentPage, handlePageChange}) {
     return(
-        <header className = "header">
+        <section className = "header">
             <nav>
         <ul className = "nav nav-tabs">
             <li className="nav-item">
@@ -41,7 +41,7 @@ function NavBar({currentPage, handlePageChange}) {
             </li>
         </ul>
         </nav>
-        </header>
+        </section>
     );
 }
 
