@@ -27,10 +27,9 @@ export default function TheContainer() {
     };
     const handlePageChange = (page) => setCurrentPage(page);
     return (
+        
         <div>
-          
-
-                <video className='videoTag' autoPlay loop muted style = {{
+            <video className='videoTag' autoPlay loop muted style = {{
               
                     position: "fixed",
                     width: "100%",
@@ -44,6 +43,7 @@ export default function TheContainer() {
                     <source src={backgroundVideo} type='video/mp4' />
                 </video>
 
+          
                 <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
 
                 {renderPage()}

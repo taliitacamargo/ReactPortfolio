@@ -1,7 +1,8 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import ContactMe from './Contact'
 
-const Contact = () => {
+function Contact() {
     const [state, handleSubmit] = useForm("xvolazrb");
 
     if (state.succeeded) {
@@ -10,9 +11,9 @@ const Contact = () => {
             <div className="container msg">
                 <h2>Your message has been sent!</h2>
                 <div className="return-btn">
-                    <button className="return" type="return">
+                    <a className="return" type="return" href = "/About">
                         {/* <Link to="/"/> */}
-                        Return</button>
+                        Return</a>
                 </div>
             </div>
         )
@@ -61,4 +62,11 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+function Contact2() {
+    return(
+    <Contact/>
+
+    );
+}
+
+export default Contact2;
