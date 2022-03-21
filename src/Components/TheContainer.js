@@ -29,6 +29,7 @@ export default function TheContainer() {
     return (
         
         <div>
+
             <video className='videoTag' autoPlay loop muted style = {{
               
                     position: "fixed",

@@ -56,6 +56,9 @@ function Contact() {
                     <button type="submit" disabled={state.submitting}>
                         Submit
                     </button>
+
+                    <small>or email me directly at:</small>
+                    <small >taliitacamargo@icloud.com</small>
                 </form>
             </div>
         </div>
