@@ -29,8 +29,8 @@ export default function TheContainer() {
     return (
         
         <div>
-            <video className='videoTag' autoPlay loop muted style = {{
-              
+            <video className='videoTag'  playsinline autoPlay loop muted style = {{
+                    
                     position: "fixed",
                     width: "100%",
                     height:"100%",
