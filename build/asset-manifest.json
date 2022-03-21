@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.13441ed5.css",
-    "main.js": "/ReactPortfolio/static/js/main.63e76649.js",
+    "main.css": "/ReactPortfolio/static/css/main.12cc9fe6.css",
+    "main.js": "/ReactPortfolio/static/js/main.8cbab440.js",
     "static/js/787.1ed0c42c.chunk.js": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/particles.mp4": "/ReactPortfolio/static/media/particles.c1e8c729fc3ac4120a7b.mp4",
     "static/media/QuizChallenge.jpg": "/ReactPortfolio/static/media/QuizChallenge.c2bd523251b286bc884d.jpg",
@@ -13,12 +13,12 @@
     "static/media/FitnessTracker.jpg": "/ReactPortfolio/static/media/FitnessTracker.4c406c410abf8a4f9f3d.jpg",
     "static/media/resume.pdf": "/ReactPortfolio/static/media/resume.f8c58556efd0681a40b7.pdf",
     "index.html": "/ReactPortfolio/index.html",
-    "main.13441ed5.css.map": "/ReactPortfolio/static/css/main.13441ed5.css.map",
-    "main.63e76649.js.map": "/ReactPortfolio/static/js/main.63e76649.js.map",
+    "main.12cc9fe6.css.map": "/ReactPortfolio/static/css/main.12cc9fe6.css.map",
+    "main.8cbab440.js.map": "/ReactPortfolio/static/js/main.8cbab440.js.map",
     "787.1ed0c42c.chunk.js.map": "/ReactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13441ed5.css",
-    "static/js/main.63e76649.js"
+    "static/css/main.12cc9fe6.css",
+    "static/js/main.8cbab440.js"
   ]
 }
