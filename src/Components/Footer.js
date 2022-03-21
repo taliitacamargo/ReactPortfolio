@@ -11,7 +11,7 @@ export default function Footer() {
 
         <footer className="footer">
 
-            <nav className="nav" id="contact-info">
+            <div className="nav" id="contact-info">
                 <ul className="links">
                     <li>
                         <a className="grow" href="mailto:taliitacamargo@icloud.com"><FaEnvelopeOpen className="grow" /></a>
@@ -25,7 +25,7 @@ export default function Footer() {
                     </li>
 
                 </ul>
-            </nav>
+            </div>
         </footer>
     );
 }
