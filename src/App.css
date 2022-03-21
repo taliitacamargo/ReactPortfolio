@@ -129,8 +129,11 @@ opacity: 80%;
 /* project page styling ends here */
 
 footer {
+  margin-top: 30px;
+  padding: 10px;
   background: #000505;
-  margin-top: 108px;
+  text-align: center;
+  z-index: 1;
 }
 
 .form,
@@ -268,7 +271,6 @@ hr {
 
 @media screen  and  (max-width: 1600px) {
 
-
    form {
     width: 50%;
   }
@@ -306,6 +308,7 @@ hr {
    }
 
   #profileIMG {
+  width: 100%;
   padding-bottom: 4px;
   }
 
@@ -317,6 +320,7 @@ hr {
   form {
     width: 100%;
   }
+
 
 }
 
