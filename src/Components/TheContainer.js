@@ -29,8 +29,8 @@ export default function TheContainer() {
     return (
         
         <div>
-            <video className='videoTag'  playsinline autoPlay loop muted style = {{
-                    
+            <video className='videoTag' autoPlay loop muted 
+             style = {{  
                     position: "fixed",
                     width: "100%",
                     height:"100%",
@@ -39,8 +39,12 @@ export default function TheContainer() {
                     objectFit: "cover",
                     transform: "translate(-50%, -50%) ",
                     zIndex: "-1", 
-                }}>
-                    <source src={backgroundVideo} type='video/mp4' />
+                }}
+                >
+                    <source src={backgroundVideo} style = {{
+                    
+                    }}  
+                    type='video/mp4' />
                 </video>
 
           
