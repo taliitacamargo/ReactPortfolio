@@ -31,7 +31,7 @@ export default function Projects() {
 
                 <span className="projects" >
                     <small className="prj-name">CardGraphix</small>
-                    <a href="https://card-graphix.herokuapp.com/">
+                    <a href="https://card-graphix.web.app/">
                         <img className="project-img block2 " src={cardGraphix} alt="cardgraphix" />
                         <p className="prj-description">A Website where users can create their own business card designs free of charge and export it to PDF for printing</p>
                     </a>
